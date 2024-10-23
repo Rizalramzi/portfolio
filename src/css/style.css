@@ -1,0 +1,23 @@
+.nav_active{
+    background-color: #1E1E1E;
+    color: white;
+}
+.nav_btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav_btn:hover{
+    background-color: #1E1E1E;
+    color: white;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+.arrow{
+    font-family: "Inter";
+    font-weight: 700;
+  }
